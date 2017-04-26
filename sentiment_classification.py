@@ -11,7 +11,7 @@ from datasets import g2crowd
 
 
 if __name__ == "__main__":
-    posfeats, negfeats = feature_extraction([tf_idf], [g2crowd])
+    posfeats, negfeats = feature_extraction([tf_idf], [g2crowd], stopwords=False, punctuation=False)
 
     print '\ncross validation NB'
     print cross_validation(posfeats, negfeats, folds=5, classifier='naive_bayes')

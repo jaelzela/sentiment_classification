@@ -5,6 +5,7 @@ This module includes functions to extract features from text.
 
 # Author: Jael Zela <jael.ruiz@students.ic.unicamp.br>
 
+import sys
 import treetaggerwrapper as ttw
 from nltk.tokenize import word_tokenize
 from nltk.metrics import BigramAssocMeasures, TrigramAssocMeasures, NgramAssocMeasures
@@ -101,11 +102,20 @@ def feature_extraction(featxs, datasets, stopwords=True, punctuation=True):
 
     possents = possents[:len(negsents)]
 
+    print 'Sentences'
+    print 'positive:', len(possents), 'negative:', len(negsents)
+
+    print '\nSettings'
+    print 'stopwords:', stopwords, 'punctuation:', punctuation
+    sys.stdout.write('features: ')
     tfidf = None
     for feat in featxs:
+        sys.stdout.write(feat.__name__ + ', ')
+        sys.stdout.flush()
         if feat.__name__ == 'tf_idf':
             tfidf = build_tfidf(possents + negsents)
 
+    print '\n\nProcessing'
     print 'pos features'
     posfeats = [(feature_eval(featxs, sen, tfidf=tfidf), 'pos') for sen in possents]
     print 'neg features'

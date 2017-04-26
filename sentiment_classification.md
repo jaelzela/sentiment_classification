@@ -81,32 +81,32 @@
 ### Reviews
 |   | Naive Bayes | SVM | Maximum Entropy |
 |---|---|---|---|
-| Sub Precision | 
-| Sub Recall    | 
-| Sub F-Measure | 
-| Obj Precision | 
-| Obj Recall    | 
-| Obj F-Measure | 
+| Sub Precision | 0.7256936927529803 | 0.6939104178970975 | 0.5018051753855360 |
+| Sub Recall    | 0.0237653357944813 | 0.7105574648150405 | 0.9934905134491043 |
+| Sub F-Measure | 0.0460153773225463 | 0.7008140053602278 | 0.6668092212037953 |
+| Obj Precision | 0.5037351363967273 | 0.7013526165101289 | 0.6839096895290627 |
+| Obj Recall    | 0.9909307033758689 | 0.6812271075113219 | 0.0136589743132777 |
+| Obj F-Measure | 0.6679304707610865 | 0.6896608767597542 | 0.0267741980915482 |
 
 ### Reviews (withou punctuation)
 |   | Naive Bayes | SVM | Maximum Entropy |
 |---|---|---|---|
-| Sub Precision | 
-| Sub Recall    | 
-| Sub F-Measure | 
-| Obj Precision | 
-| Obj Recall    | 
-| Obj F-Measure | 
+| Sub Precision | 0.7582017195375481 | 0.6922180239551710 | 0.5413698287957761 |
+| Sub Recall    | 0.0250672915364733 | 0.7095644721528102 | 0.7998018991118266 |
+| Sub F-Measure | 0.0485201229413408 | 0.6994800317897009 | 0.5439325096718843 |
+| Obj Precision | 0.5043135475415036 | 0.7000108966140803 | 0.6702377912233010 |
+| Obj Recall    | 0.9919016039435242 | 0.6792190860894403 | 0.2104590461649302 |
+| Obj F-Measure | 0.6686594498509606 | 0.6879889301494703 | 0.1584267691801126 |
 
 ### Reviews (without punctuation, without stopwords)
 |   | Naive Bayes | SVM | Maximum Entropy |
 |---|---|---|---|
-| Sub Precision | 
-| Sub Recall    | 
-| Sub F-Measure | 
-| Obj Precision | 
-| Obj Recall    | 
-| Obj F-Measure | 
+| Sub Precision | 0.7586453087971400 | 0.6867629676727354 | 0.5027165217039584 |
+| Sub Recall    | 0.0281344869526144 | 0.7045333908107599 | 0.9921445025548824 |
+| Sub F-Measure | 0.0542450382910617 | 0.6941305550944217 | 0.6673089270261405 |
+| Obj Precision | 0.5048563320596775 | 0.6942041598792279 | 0.7089135507667684 |
+| Obj Recall    | 0.9909306668559857 | 0.6728196875086125 | 0.0185797485659616 |
+| Obj F-Measure | 0.6689152448175069 | 0.6817572633733681 | 0.0361936608326504 |
 
 
 ## Bigrams / TF-IDF / Part of Speech
