@@ -114,12 +114,12 @@
 ### Reviews (without punctuation, without stopwords)
 |   | Naive Bayes | SVM | Maximum Entropy |
 |---|---|---|---|
-| Sub Precision | 
-| Sub Recall    | 
-| Sub F-Measure | 
-| Obj Precision | 
-| Obj Recall    | 
-| Obj F-Measure | 
+| Sub Precision | 0.7445524315943002 | 0.7411676354625036 | 0.769652839471548 |
+| Sub Recall    | 0.7227603913918643 | 0.7588824633372024 | 0.758970300959869 |
+| Sub F-Measure | 0.7321858177394447 | 0.7492502138032503 | 0.763916806071391 |
+| Obj Precision | 0.7294171529151185 | 0.7524296246590605 | 0.761658554340603 |
+| Obj Recall    | 0.7474263683683666 | 0.7325321747473481 | 0.771259657926534 |
+| Obj F-Measure | 0.7371090114171959 | 0.7415855298150038 | 0.766052596262716 |
 
 
 ## Bag of Words / Bigrams / TF-IDF / Part of Speech
@@ -127,12 +127,11 @@
 ### Reviews (without punctuation, without stopwords)
 |   | Naive Bayes | SVM | Maximum Entropy |
 |---|---|---|---|
-| Sub Precision | 
-| Sub Recall    | 
-| Sub F-Measure | 
-| Obj Precision | 
-| Obj Recall    | 
-| Obj F-Measure | 
-
+| Sub Precision | 0.7448293162960786 | 0.7348700053342482 | 0.7588059393852155 |
+| Sub Recall    | 0.7100281651076572 | 0.7566095193798359 | 0.7763810772859085 |
+| Sub F-Measure | 0.7253834621237685 | 0.7449430808946061 | 0.7668954255852320 |
+| Obj Precision | 0.7213702935524370 | 0.7483928857127380 | 0.7707565032993833 |
+| Obj Recall    | 0.7510228513185966 | 0.7244558537428352 | 0.7511562803632394 |
+| Obj F-Measure | 0.7344905234087100 | 0.7354931160482814 | 0.7601577989356773 |
 
 
